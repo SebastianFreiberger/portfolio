@@ -1,0 +1,31 @@
+main.content-main {    
+    margin-top: 120px;        
+}
+
+main.content-main .block-info { 
+    width: 60%;        
+    padding: 50px;
+    display: flex;    
+    align-items: center;
+    margin: 0 auto;    
+    border-bottom: 1px solid #cacaca;
+}
+
+main.content-main .block-info .info-text{ 
+    padding: 20px;
+    line-height: 2rem;
+}
+
+main.content-main .block-info .info-text h1{ 
+    color: #f0e7ff;        
+}
+
+main.content-main .block-info .info-text p{ 
+    color: #cacaca;        
+}
+
+div.content-image img{
+    width: 20vw;
+    margin: 0 0 0 50px;
+    border-radius: 50%;    
+}

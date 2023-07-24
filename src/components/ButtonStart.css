@@ -1,0 +1,39 @@
+.btn-start {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+button {
+    background-color: #342e47;
+    color: #d792ff;
+    border: none;
+    font-size: 20px;
+    padding: 2px;
+    box-shadow: 0px 0px 20px #a200ff;
+    border-radius: 15px;
+    transition: 0.6s;
+    display: flex;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #a200ff;
+    /* border-radius: 25px;    */ 
+    color: #ffffff;
+    /* border: 1px solid #a200ff; */
+    box-shadow: 0px 0px 30px 10px #a200ff;
+}
+
+button i {
+    margin-left: 15px;
+    font-size: 18px;
+    color: #eed2ff;
+}
+
+.btn-container {
+    padding: 20px 40px;
+    border: solid 2px #991cff;
+    border-radius: 10px;
+    background-color: #342e47;
+}

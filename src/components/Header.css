@@ -1,0 +1,25 @@
+.main-header {    
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(15,15,15,1) 24%, rgba(28,28,28,1) 49%, rgba(40,40,40,1) 83%, rgba(47,47,47,1) 100%);
+    padding: 15px 0;   
+    border-bottom: 1px solid #ae00ff; 
+    box-shadow: 0 10px 30px #991cff;
+}
+
+div.elem-header {
+    margin-left: 50px;
+    width: 200px;
+}
+
+@keyframes anim {
+    0% {color: rgb(87, 49, 175);}
+   25% {color: rgb(139, 68, 153);}
+   50% {color: #8400ff;} 
+   75% {color: rgb(132, 100, 175);}
+  100% {color: rgb(87, 49, 175);}
+}
+.title-header h1 {
+  animation-name: anim;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
